@@ -4,3 +4,4 @@
     url = s3://kc-savchenko/dvcstore
     region = ru-central1
     s3 =  endpoint_url=https://storage.yandexcloud.net
+
