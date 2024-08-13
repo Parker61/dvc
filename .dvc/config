@@ -1,7 +1,10 @@
 [core]
-    remote = myremote
-['remote "myremote"']
-    url = s3://kc-savchenko/dvcstore
-    region = ru-central1
-    s3 =  endpoint_url=https://storage.yandexcloud.net
+remote = myremote
 
+[remote "myremote"]
+url = s3://kc-savchenko/dvcstore
+region = ru-central1
+http = false
+s3.access_key = your_access_key
+s3.secret_key = your_secret_key
+s3.endpoint_url = https://storage.yandexcloud.net
