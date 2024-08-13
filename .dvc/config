@@ -1,6 +1,7 @@
 [core]
     remote = myremote
+
 ['remote "myremote"']
     url = s3://kc-savchenko/dvcstore
     region = ru-central1
-    s3 =  endpoint_url=https://storage.yandexcloud.net
+    endpointurl = https://storage.yandexcloud.net
